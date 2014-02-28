@@ -55,7 +55,11 @@
                                 <?php } ?>
                             </td>
 		        </tr>
-                        <tr>
+		        <tr>
+                            <td><?php echo $entry_pid; ?></td>
+                            <td><input type="text" name="dibspw_pid" value="<?php echo $dibspw_pid; ?>" /></td>
+                        </tr>
+	                <tr>
                             <td><?php echo $entry_hmac; ?></td>
                             <td><input type="text" name="dibspw_hmac" value="<?php echo $dibspw_hmac; ?>" /></td>
                         </tr>
