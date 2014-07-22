@@ -150,7 +150,8 @@ class dibs_pw_api extends dibs_pw_helpers {
         if(!empty($sMAC)) $aData['MAC'] = $sMAC;
         
         return $aData;
-    }
+      }
+   }
     
     /**
      * Adds to $aData common DIBS integration parameters.
